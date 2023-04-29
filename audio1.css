@@ -163,6 +163,7 @@ a.btn2{
     }
     .songs img{
         width: 80vw;
+        height: 30vh;
     }
     .songs a{
         width: 25vw;
