@@ -157,13 +157,13 @@ a.btn2{
     }
     .songs{
         display: block;
-        width: 70vw;
+        width: 80vw;
         position: relative;
         left: 12vw;
        
     }
     .songs img{
-        width: 70vw;
+        width: 80vw;
     }
     .songs a{
         width: 25vw;
