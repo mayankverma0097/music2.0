@@ -8,7 +8,7 @@ body{
 }
 .nav {
     background-color: black;
-    height: 10vh;
+    height: 12vh;
 }
 
 .nav ul {
@@ -119,6 +119,7 @@ a.btn1{
     font-size: 3vmin;
     text-align: center;
     border-radius: 5px;
+    margin-bottom: 4vh;
 }
 
 .btn2{
@@ -156,14 +157,13 @@ a.btn2{
     }
     .songs{
         display: block;
-        width: 80vw;
+        width: 70vw;
         position: relative;
-        left: 6.5vw;
+        left: 12vw;
        
     }
     .songs img{
-        width: 80vw;
-        height: 30vh;
+        width: 70vw;
     }
     .songs a{
         width: 25vw;
@@ -187,9 +187,4 @@ a.btn2{
    .songs audio{
     width: 100%;
    }
-  .featured_album a{
-    font-size: 5vmin;
-   
-  }
-  
 }
