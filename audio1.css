@@ -169,7 +169,8 @@ a.btn2{
         width: 25vw;
         font-size: 5vmin;
         margin-bottom: 4vh;
-        padding-bottom: 4vh;
+        display:inline-block;
+        
     }
     .songs song_info{
         font-size: 5vmin;
