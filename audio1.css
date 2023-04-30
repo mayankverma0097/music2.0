@@ -159,7 +159,7 @@ a.btn2{
         display: block;
         width: 85vw;
         position: relative;
-        left: 10vw;
+        left: 8vw;
        
     }
     .songs img{
@@ -168,6 +168,7 @@ a.btn2{
     .songs a{
         width: 25vw;
         font-size: 5vmin;
+        margin-bottom:4vh;
     }
     .songs song_info{
         font-size: 5vmin;
