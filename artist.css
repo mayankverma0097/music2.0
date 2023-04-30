@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f7f7f7;
+}
+
+/* Header Styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Main Styles */
+main {
+	max-width: 1200px;
+	margin: 40px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#artist-info {
+	flex-basis: 60%;
+	margin-right: 20px;
+}
+
+#artist-info h2 {
+	margin-bottom: 20px;
+}
+
+#artist-image img {
+	width: 80vw;
+    height: 90vh;
+}
+
+#artist-music {
+	flex-basis: 30%;
+}
+
+#artist-music h2 {
+	margin-bottom: 20px;
+}
+
+#artist-music ul {
+	list-style: none;
+}
+
+#artist-music ul li {
+	margin-bottom: 10px;
+}
+
+#artist-music ul li a {
+	color: #333;
+	text-decoration: none;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
