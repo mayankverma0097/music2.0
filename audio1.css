@@ -125,7 +125,7 @@ a.btn1 {
     /* height: 80vh; */
     margin-top: 10vh;
     margin-left: 4vw;
-    margin-bottom: 18vh;
+    /* margin-bottom: 10vh; */
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 1s;
@@ -192,8 +192,8 @@ footer {
     background-color: black;
     color: white;
     font-size: 4vmin;
-    position: fixed;
-    bottom: 0vh;
+    /* position: fixed;
+    bottom: 0vh; */
     padding-top: 2vh;
    
 }
