@@ -12,7 +12,7 @@ body {
     height: 12vh;
     transition: 1s;
     margin-top: 0vh;
-
+    
 }
 
 .nav:hover {
@@ -22,19 +22,20 @@ body {
 .nav ul {
 
     text-align: center;
+    
 }
 
 .nav ul li {
     display: inline;
     /* color: white; */
-
+    
 }
 
 .nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 6vmin;
-    margin: 20px;
+    padding: 2vw;
 }
 
 .site_name {
@@ -67,7 +68,10 @@ body {
     border-radius: 50%;
     margin-bottom: 10vh;
 }
-
+.featured_album{
+    width: 100vw;
+    /* border:2px solid red; */
+}
 img.img1 {
     display: block;
     margin-left: auto;
@@ -130,6 +134,7 @@ a.btn1 {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 1s;
+    /* border: 1px solid black; */
 }
 
 .songs:hover {
@@ -160,6 +165,8 @@ a.btn1 {
 .songs audio {
     margin-top: 4vh;
     width: 100%;
+    margin-bottom: 8vh;
+
 
 }
 
@@ -203,27 +210,25 @@ footer {
 
 
 
-@media screen and (max-width:700px) {
+@media only screen and (max-width:700px) {
     body {
         /* background-color: red; */
     }
 
     .nav {
-        height: 35vh;
+        height: 30vh;
         /* padding: 5%; */
-        width: 100vw;
+        
         
     }
-
+ 
     .nav:hover {
         transform: none;
     }
 
     .nav ul li {
         display: block;
-        
-        
-        
+           
     }
    
     .nav ul li a {
@@ -231,12 +236,15 @@ footer {
         
     }
    .site_name{
-    font-size: 18vmin;
+    font-size: 15vmin;
    }
     .site_name:hover {
         transform: none;
     }
-
+.featured_album{
+    width: 100vw;
+    
+}
     .img1:hover {
         transform: none;
     }
@@ -274,14 +282,14 @@ footer {
     .songs song_name {
         font-size: 10vmin;
     }
-
+  
     .featured_album h2 {
         font-size: 10vmin;
     }
 
     .featured_album img {
-        width: 500px;
-        height: 500px;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
     }
 
@@ -292,6 +300,8 @@ footer {
 
     .songs audio {
         width: 100%;
+        margin-bottom: 2vh;
+        padding-bottom: 4vh;
     }
     footer{
         height: 20vh;
