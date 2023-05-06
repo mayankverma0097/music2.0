@@ -52,7 +52,7 @@ body {
 
 .site_name a {
     text-decoration: none;
-    color: rgb(203, 209, 125);
+    color: rgb(226, 215, 130);
 
 }
 
@@ -67,6 +67,7 @@ body {
     height: 300px;
     border-radius: 50%;
     margin-bottom: 10vh;
+   
 }
 .featured_album{
     width: 100vw;
@@ -132,16 +133,16 @@ a.btn1 {
     margin-top: 10vh;
     margin-left: 4vw;
     /* margin-bottom: 10vh; */
-    background-color: white;
+    background-color: rgb(238, 233, 198);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 1s;
-    /* border: 1px solid black; */
+    /* border: 1px solid rgb(150, 134, 45); */
     user-select: none;
 }
 
 .songs:hover {
     transform: scale(1.1);
-    background-color: rgb(230, 235, 182);
+    /* background-color: rgb(230, 235, 182); */
 
 
 }
@@ -261,7 +262,7 @@ footer {
 
     .songs:hover {
         transform: none;
-        background-color: white;
+        /* background-color: white; */
     }
 
     .songs img {
@@ -306,12 +307,12 @@ footer {
         padding-bottom: 4vh;
     }
     footer{
-        height: 20vh;
-        padding-top: 6vh;
-        margin-top: 8vh;
+        height: 6vh;
+        padding-top: 2vh;
+        margin-top: 4vh;
     }
     .footer1{
-        font-size: 10vmin;
+        font-size: 6vmin;
         
     }
 }
