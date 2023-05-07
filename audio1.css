@@ -211,7 +211,17 @@ footer {
 
 }
 
-
+.version img{
+    width: 60vw;
+    margin-left: 15vw;
+    
+    
+}
+.version{
+    align-content: center;
+    /* border: 2px solid black; */
+    margin-top: 20vh;
+}
 
 @media only screen and (max-width:700px) {
     body {
