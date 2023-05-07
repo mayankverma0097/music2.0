@@ -213,7 +213,7 @@ footer {
 
 .version img{
     width: 60vw;
-    margin-left: 15vw;
+    /* margin-left: 5vw; */
     
     
 }
@@ -221,6 +221,10 @@ footer {
     align-content: center;
     /* border: 2px solid black; */
     margin-top: 20vh;
+    /* border: 2px solid black; */
+    font-size: 5vmin;
+    text-align: center;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width:700px) {
