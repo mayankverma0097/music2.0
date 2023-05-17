@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: white;
 }
 
 .nav {
@@ -73,7 +73,7 @@ body {
     width: 100vw;
     user-select: none;
     /* border:2px solid red; */
-    color: white;
+    color: black;
 }
 img.img1 {
     display: block;
@@ -226,7 +226,7 @@ footer {
     font-size: 5vmin;
     text-align: center;
     text-decoration: underline;
-    color: white;
+    color: black;
 }
 
 @media only screen and (max-width:700px) {
