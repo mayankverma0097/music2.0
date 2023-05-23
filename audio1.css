@@ -52,7 +52,7 @@ body {
 
 .site_name a {
     text-decoration: none;
-    color: rgb(226, 215, 130);
+    color: rgb(255, 77, 136);
 
 }
 
@@ -134,7 +134,8 @@ a.btn1 {
     margin-top: 10vh;
     margin-left: 4vw;
     /* margin-bottom: 10vh; */
-    background-color: rgb(238, 233, 198);
+    /* background-color: rgb(238, 233, 198); */
+    background-color:rgb(230, 230, 255);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 1s;
     /* border: 1px solid rgb(150, 134, 45); */
@@ -209,11 +210,13 @@ footer {
     /* position: fixed;
     bottom: 0vh; */
     padding-top: 2vh;
+    margin-top: 4vh;
 
 }
 
 .version img{
-    width: 20vw;
+    width: 60vw;
+    height: 50vh;
     /* margin-left: 5vw; */
     
     
@@ -273,6 +276,7 @@ footer {
         width: 85vw;
         position: relative;
         left: 4vw;
+        
 
     }
 
