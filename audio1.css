@@ -4,11 +4,11 @@
 }
 
 body {
-    /* background-color: rgb(244, 245, 247); */
+    /* background-color: rgb(235, 196, 22); */
     background-image: url("./images/bg1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
 }
 
 .nav {
