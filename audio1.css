@@ -4,7 +4,11 @@
 }
 
 body {
-    background-color: rgb(244, 245, 247);
+    /* background-color: rgb(244, 245, 247); */
+    background-image: url("./images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .nav {
@@ -137,12 +141,13 @@ a.btn1 {
     margin-left: 4vw;
     /* margin-bottom: 10vh; */
     /* background-color: rgb(238, 233, 198); */
-    background-color:rgb(244, 245, 247);
+    /* background-color:rgb(244, 245, 247); */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 1s;
     /* border: 1px solid rgb(150, 134, 45); */
     user-select: none;
     border-radius: 10px;
+    background-color: rgba(255, 252, 252, 0.493);
     
 }
 
