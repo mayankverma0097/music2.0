@@ -12,16 +12,21 @@ body {
 }
 
 .nav {
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.808);
     height: 12vh;
     /* transition: 1s; */
-    margin-top: 0vh;
+    margin-top: 5vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 60vw;
+    margin-left: 20vw;
+    border-radius: 20px;
 
 }
 
-/* .nav:hover {
-    transform: scale(1.2);
-} */
+.nav ul li a:hover {
+    color: rgb(230, 66, 66);
+    
+}
 
 .nav ul {
 
@@ -37,9 +42,12 @@ body {
 
 .nav ul li a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
+    color: black;
     font-size: 6vmin;
     padding: 2vw;
+    font-weight: bold;
+    
 }
 
 .site_name {
@@ -50,20 +58,22 @@ body {
     /* border: 2px solid red; */
     width: 20vw;
 
-    /* transition: 1s; */
+   
 
 }
 
 .site_name a {
     text-decoration: none;
-    color: rgb(48, 48, 112);
+    /* color: rgb(48, 48, 112); */
+    color:rgb(189, 42, 42);;
     font-weight: bold;
     font-style: oblique;
-
+    
 }
 
-/* .site_name:hover {
-    transform: scale(1.2);
+/* .site_name a:hover {
+    color: rgb(189, 42, 42);
+    
 
 } */
 
@@ -73,7 +83,7 @@ body {
     height: 300px;
     border-radius: 50%;
     margin-bottom: 10vh;
-
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .featured_album {
@@ -212,7 +222,7 @@ a.btn2 {
 }
 
 footer {
-    width: 100vw;
+    /* width: 100vw; */
     height: 8vh;
     text-align: center;
     background-color: black;
@@ -259,8 +269,11 @@ footer {
     .nav {
         height: 30vh;
         /* padding: 5%; */
-
-
+        width: 85vw;
+        border-radius: 10px;
+        margin-left: 8vw;
+        margin-top: 6vh;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .nav:hover {
@@ -278,18 +291,18 @@ footer {
     }
 
     .site_name {
-        font-size: 15vmin;
+        font-size: 12vmin;
     }
 
     .site_name:hover {
         transform: none;
     }
 
-    .featured_album {
+    /* .featured_album {
         width: 100vw;
 
-    }
-
+    } */
+    
     .img1:hover {
         transform: none;
     }
@@ -299,7 +312,7 @@ footer {
         width: 85vw;
         position: relative;
         left: 4vw;
-
+        
 
     }
 
@@ -310,7 +323,7 @@ footer {
 
     .songs img {
         width: 85vw;
-        height: 40vh;
+        height: 30vh;
     }
 
     .songs a {
@@ -334,8 +347,8 @@ footer {
     }
 
     .featured_album img {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
     }
 
@@ -362,11 +375,14 @@ footer {
     }
 
     .version img {
-        width: 80vw;
-        height: 30vh;
+        width: 85vw;
+        height: 25vh;
     }
 
     .version img:hover {
         transform: none;
+    }
+    .version{
+        margin-top: 8vh;
     }
 }
