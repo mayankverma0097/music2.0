@@ -8,7 +8,7 @@ body {
     background-image: url("./images/bg1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* background-size: 100% 100%; */
+    /* background-size: 100%,100%; */
 }
 
 .nav {
@@ -20,12 +20,12 @@ body {
     width: 60vw;
     margin-left: 20vw;
     border-radius: 20px;
-
+    transition: 1s;
 }
 
-.nav ul li a:hover {
-    color: rgb(230, 66, 66);
-    
+.nav:hover {
+    transform: scale(1.1);
+
 }
 
 .nav ul {
@@ -43,32 +43,33 @@ body {
 .nav ul li a {
     text-decoration: none;
     /* color: white; */
-    color: black;
+    color: rgb(173, 52, 52);
     font-size: 6vmin;
     padding: 2vw;
     font-weight: bold;
-    
+
 }
 
 .site_name {
     font-size: 8vmin;
     margin-bottom: 4vh;
-    margin-top: 4vh;
-    margin-left: 4vw;
+    margin-top: 15vh;
+    margin-left: 8vw;
     /* border: 2px solid red; */
     width: 20vw;
 
-   
+
 
 }
 
 .site_name a {
     text-decoration: none;
     /* color: rgb(48, 48, 112); */
-    color:rgb(189, 42, 42);;
+    color: rgb(189, 42, 42);
+    ;
     font-weight: bold;
     font-style: oblique;
-    
+
 }
 
 /* .site_name a:hover {
@@ -104,9 +105,9 @@ img.img1 {
     transition: 1s;
 }
 
-.img1:hover {
+/* .img1:hover {
     transform: scale(1.2);
-}
+} */
 
 .featured_album h2 {
     text-align: center;
@@ -225,13 +226,19 @@ footer {
     /* width: 100vw; */
     height: 8vh;
     text-align: center;
-    background-color: black;
-    color: white;
-    font-size: 4vmin;
+    background-color: rgba(255, 255, 255, 0.788);
+    color: rgb(170, 26, 26);
+    font-size: 5vmin;
     /* position: fixed;
     bottom: 0vh; */
     padding-top: 2vh;
     margin-top: 4vh;
+    width: 90vw;
+    margin-left: 4vw;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
 
 }
 
@@ -254,6 +261,7 @@ footer {
     text-align: center;
     text-decoration: underline;
     color: black;
+
 
 }
 
@@ -302,7 +310,7 @@ footer {
         width: 100vw;
 
     } */
-    
+
     .img1:hover {
         transform: none;
     }
@@ -312,7 +320,7 @@ footer {
         width: 85vw;
         position: relative;
         left: 4vw;
-        
+
 
     }
 
@@ -382,7 +390,8 @@ footer {
     .version img:hover {
         transform: none;
     }
-    .version{
+
+    .version {
         margin-top: 8vh;
     }
 }
