@@ -4,11 +4,22 @@
 }
 
 body {
-    /* background-color: rgb(235, 196, 22); */
-    background-image: url("./images/bg1.jpg");
+    background-color: rgb(215, 216, 160);
+    /* background-image: url("./images/bg4.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* background-size: 100%,100%; */
+    background-size: 100% 100%; */
+}
+
+.top_image {
+    border: 0.1px solid rgba(247, 244, 244, 0.39);
+    /* background-image: url(./images/bg4.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: 100% 100%; */
+    /* width: 98vw; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    */
 }
 
 .nav {
@@ -57,8 +68,9 @@ body {
     margin-left: 8vw;
     /* border: 2px solid red; */
     width: 20vw;
-
-
+    /* background-color: rgba(255, 255, 255, 0.822); */
+    /* border-radius: 25px; */
+    text-align: center;
 
 }
 
@@ -113,6 +125,7 @@ img.img1 {
     text-align: center;
     font-size: 5vmin;
     margin-bottom: 5vh;
+    color: white;
 }
 
 /* .featured_album audio{
@@ -148,10 +161,10 @@ a.btn1 {
 .songs {
     display: inline-block;
     /* border: 2px solid red; */
-    width: 20vw;
+    width: 18vw;
     /* height: 50vh; */
     margin-top: 10vh;
-    margin-left: 4vw;
+    margin-left: 5vw;
     /* margin-bottom: 10vh; */
     /* background-color: rgb(238, 233, 198); */
     /* background-color:rgb(244, 245, 247); */
@@ -161,6 +174,7 @@ a.btn1 {
     user-select: none;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.685);
+    backdrop-filter: blur(3px);
 
 }
 
@@ -172,12 +186,12 @@ a.btn1 {
 }
 
 .songs img {
-    width: 20vw;
-    height: 30vh;
+    width: 18vw;
+    height: 28vh;
 }
 
 .songs song_name {
-    font-size: 4vmin;
+    font-size: 3.5vmin;
     font-weight: bold;
     /* border: 2px solid red; */
     display: inline-block;
@@ -242,6 +256,12 @@ footer {
 
 }
 
+/* .bottom_image{
+    background-color: rgb(36, 36, 56);
+    border: 0.1px solid rgba(255, 255, 255, 0.205);
+    margin-top: 15vh;
+    background-size: 100% 100%; */
+
 .version img {
     width: 30vw;
     height: 30vh;
@@ -255,7 +275,7 @@ footer {
 .version {
     align-content: center;
     /* border: 2px solid black; */
-    margin-top: 20vh;
+    margin-top: 10vh;
     /* border: 2px solid black; */
     font-size: 5vmin;
     text-align: center;
@@ -300,6 +320,9 @@ footer {
 
     .site_name {
         font-size: 12vmin;
+        /* background-color: rgb(14, 17, 20); */
+        /* width: 65vw; */
+        /* margin-top: 10vh; */
     }
 
     .site_name:hover {
@@ -352,6 +375,7 @@ footer {
 
     .featured_album h2 {
         font-size: 10vmin;
+        color: white;
     }
 
     .featured_album img {
@@ -363,6 +387,7 @@ footer {
     .featured_album a {
         font-size: 5.5vmin;
         width: 25vw;
+
     }
 
     .songs audio {
